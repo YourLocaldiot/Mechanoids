@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>APM_DuelistSpear</defName>
+    <label>duelist's psyspear</label>
+    <description>A reinforced spear imbued with Dominus-derived psychic circuitry. Allows the wielder to challenge a single opponent into a psychic duel, creating a focused maelstrom that amplifies attacks within. The spear channels the wielder’s will, projecting a shield around the duel and enhancing damage output within the duel’s radius.</description>
+    <recipeMaker>
+      <!--<researchPrerequisite>ApexMechtech</researchPrerequisite>-->
+      <displayPriority>510</displayPriority> 
+    </recipeMaker>
+    <costList>
+      <!--Chips which havent been defined yet, this requires rebalancing anyway-->
+      <Plasteel>250</Plasteel>
+      <ComponentSpacer>9</ComponentSpacer>
+      <ComponentIndustrial>4</ComponentIndustrial>
+      <Steel>60</Steel>
+    </costList>
+    <graphicData>
+      <texPath>Weapons/APM_DuelistSpear/SpearB</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <equippedAngleOffset>20</equippedAngleOffset>
+    <statBases>
+      <WorkToMake>1800</WorkToMake>
+      <Mass>0.5</Mass>
+    </statBases>
+    <burnableByRecipe>false</burnableByRecipe>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>2.1</cooldownTime>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>26</power>
+        <cooldownTime>2.7</cooldownTime>
+      </li>
+    </tools>
+    <comps>
+      <li>
+        <abilityDef>APM_Mech_Duel</abilityDef>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>APM_SeveringBlade</defName>
+    <label>severing blade</label>
+    <description> A heavy combat blade integrated with Terminus-derived control matrices. Allows the wielder to channel psychic energy into wide sweeping strikes, cleaving through multiple foes at once.</description>
+    <recipeMaker>
+      <!--<researchPrerequisite>ApexMechtech</researchPrerequisite>-->
+      <displayPriority>510</displayPriority> 
+    </recipeMaker>
+    <costList>
+      <!--Chips which havent been defined yet, this requires rebalancing anyway-->
+      <Plasteel>250</Plasteel>
+      <ComponentSpacer>9</ComponentSpacer>
+      <ComponentIndustrial>4</ComponentIndustrial>
+      <Steel>60</Steel>
+    </costList>
+    <graphicData>
+      <texPath>Weapons/APM_SeveringBlade/SwordB</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <equippedAngleOffset>20</equippedAngleOffset>
+    <statBases>
+      <WorkToMake>1800</WorkToMake>
+      <Mass>0.5</Mass>
+    </statBases>
+    <burnableByRecipe>false</burnableByRecipe>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>2.1</cooldownTime>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>26</power>
+        <cooldownTime>2.7</cooldownTime>
+      </li>
+    </tools>
+    <comps>
+      <li>
+        <abilityDef>SeveringEdge</abilityDef>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>APM_Katana</defName>
+    <label>skipblade</label>
+    <description>A high-frequency katana integrated with Celerus-derived displacement technology. Enables the wielder to psychically “skip” short distances with each strike, closing gaps instantly or evading counterattacks.</description>
+    <recipeMaker>
+      <!--<researchPrerequisite>ApexMechtech</researchPrerequisite>-->
+      <displayPriority>510</displayPriority> 
+    </recipeMaker>
+    <costList>
+      <!--Chips which havent been defined yet, this requires rebalancing anyway-->
+      <Plasteel>250</Plasteel>
+      <ComponentSpacer>9</ComponentSpacer>
+      <ComponentIndustrial>4</ComponentIndustrial>
+      <Steel>60</Steel>
+    </costList>
+    <graphicData>
+      <texPath>Weapons/APM_Katana/KatanaB</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <equippedAngleOffset>20</equippedAngleOffset>
+    <statBases>
+      <WorkToMake>1800</WorkToMake>
+      <Mass>0.5</Mass>
+    </statBases>
+    <burnableByRecipe>false</burnableByRecipe>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>2.1</cooldownTime>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>26</power>
+        <cooldownTime>2.7</cooldownTime>
+      </li>
+    </tools>
+    <comps>
+      <li>
+        <abilityDef>APM_CelerusBlink</abilityDef>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

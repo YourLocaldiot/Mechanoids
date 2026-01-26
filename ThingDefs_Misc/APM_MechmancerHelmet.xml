@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="ApparelArmorHelmetMechanitorBase">
+    <defName>APM_Apparel_MechamancerHelm</defName>
+    <label>mechmancer helmet</label>
+    <description>Better description in progress num 2</description>
+    <recipeMaker>
+      <!--<researchPrerequisite>ApexMechtech</researchPrerequisite>-->
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+      <displayPriority>509</displayPriority> 
+    </recipeMaker>
+    <graphicData>
+      <texPath>Apparel/APM_MechmancerHelmet/MechJuggernautHIco</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <ArmorRating_Sharp>0.98</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.7</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.6</ArmorRating_Heat>
+      <Insulation_Cold>30</Insulation_Cold>
+      <Insulation_Heat>10</Insulation_Heat>
+      <EquipDelay>25</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MechBandwidth>12</MechBandwidth>
+      <VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">0.67</VacuumResistance>
+    </equippedStatOffsets>
+    <costList>
+      <!--Chips which havent been defined yet, this requires rebalancing anyway-->
+      <Plasteel>250</Plasteel>
+      <ComponentSpacer>9</ComponentSpacer>
+      <ComponentIndustrial>4</ComponentIndustrial>
+      <Steel>60</Steel>
+    </costList>
+    <apparel>
+       <wornGraphicPath>Apparel/APM_MechmancerHelmet/MechJuggernautH</wornGraphicPath>
+       <bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+    </apparel>
+    <tradeTags>
+      <li>ExoticMisc</li>
+      <li>Clothing</li>
+    </tradeTags>
+  </ThingDef>
+</Defs>
